@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# Menu Pilihan
+# Function to display menu and get user choice
 display_menu() {
-    echo "Pilih Windows Server yang Ingin Dibuat:"
+    echo "Please select the Windows Server version:"
     echo "1. Windows Server 2016"
     echo "2. Windows Server 2019"
     echo "3. Windows Server 2022"
