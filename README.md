@@ -1,4 +1,4 @@
-<h1>Custom Windows Server : Auto Installer</h1>
+<h1>Custom Windows Server Image: Auto Installer</h1>
 <div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true">
 <article class="markdown-body entry-content container-lg">
 <div class="markdown-heading" dir="auto">&nbsp;</div>
