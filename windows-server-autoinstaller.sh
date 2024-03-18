@@ -1,5 +1,6 @@
 #!/bin/bash
 
+
 # Function to display menu and get user choice
 display_menu() {
     echo "Please select the Windows Server version:"
