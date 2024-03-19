@@ -13,7 +13,7 @@ wget https://raw.githubusercontent.com/rennode/Custom-Windows-Server-Image/main/
 Beri permission ke file tersebut
 
 ```jsx
-chmod +x (http://windows-server-autoinstaller.sh/)
+chmod +x windows-server-autoinstaller.sh
 ```
 
 Jalankan installernya
