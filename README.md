@@ -5,7 +5,7 @@
 ## 1. Download & Setup Installer :
 
 ```jsx
-wget https://raw.githubusercontent.com/rennode/Custom-Windows-Server-Image/main/windows-server-autoinstaller.sh && chmod +x [windows-server-autoinstaller.sh](http://windows-server-autoinstaller.sh/) && ./windows-server-autoinstaller.sh
+wget https://raw.githubusercontent.com/rennode/Custom-Windows-Server-Image/main/windows-server-autoinstaller.sh && chmod +x windows-server-autoinstaller.sh && ./windows-server-autoinstaller.sh
 ```
 
 ## 2. Run QEMU :
