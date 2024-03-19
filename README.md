@@ -39,6 +39,7 @@ qemu-system-x86_64 \
 -device usb-tablet \
 -vnc :0 \
 ```
+PENTING : Enter 2x
 
 ## 3. Akses via VNC :
 
@@ -82,5 +83,10 @@ Create droplet baru dan ikuti petunjuk yang ada di YouTube
 
 ```jsx
 wget -O- --no-check-certificate http://yyy.yyy.yyy/windowsxxxx.gz | gunzip | dd of=/dev/vda
+```
+Atau pake punya saya
+
+```jsx
+wget -O- --no-check-certificate https://download1334.mediafire.com/zfb1oeazeiqgV5h9IbPi0a1NIHM_ZbQHBkzJ1gRa40fgXeWDpNx4AkLM8h5kBo0hpxmqLJPidSSGffNx8SSY5J22AjEJgyDYDISqklcHe9R-tV0UPZsGeLTZTkmq_ikFnqLG7GCdyYskNhukyCHlrGDmb_UW57UUIYs_yT5TLla1otY/k10h6vq91r0tw34/windows2022.gz | gunzip | dd of=/dev/vda
 ```
 
