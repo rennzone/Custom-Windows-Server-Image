@@ -4,8 +4,22 @@
 
 ## 1. Download & Setup Installer :
 
+Download file Installernya
+
 ```jsx
-wget https://raw.githubusercontent.com/rennode/Custom-Windows-Server-Image/main/windows-server-autoinstaller.sh && chmod +x windows-server-autoinstaller.sh && ./windows-server-autoinstaller.sh
+wget https://raw.githubusercontent.com/rennode/Custom-Windows-Server-Image/main/windows-server-autoinstaller.sh
+```
+
+Beri permission ke file tersebut
+
+```jsx
+chmod +x (http://windows-server-autoinstaller.sh/)
+```
+
+Jalankan installernya
+
+```jsx
+./windows-server-autoinstaller.sh
 ```
 
 ## 2. Run QEMU :
@@ -32,20 +46,31 @@ Buka RealVNC Viewer, masukkan IP VPS kalian. Setelah itu ikuti langkah langkah y
 
 ## 4. Download File Custom Windows Server Kalian :
 
-Download dan simpan file custom ini biar ga perlu ngulang dari awal lagi kalo mau create rdp.
-
-Ubah xxx sesuai dengan versi Windows Server kalian.
+Kompress Windows Server Img kalian
 
 ```jsx
 dd if=windows2xxx.img | gzip -c>windows2xxx.gz
+```
+
+Install Apache
+
+```powershell
 apt install apache2
+```
+
+Beri akses firewall untuk Apache
+
+```powershell
 sudo ufw allow 'Apache'
+```
+
+Pindahkan file Windows Server Image kalian biar bisa di download
+
+```powershell
 cp windowsxxx.gz /var/www/html/
 ```
 
-kemudian buka browser untuk download filenya.
-
-ubah yyy.yyy.yyy dengan IP VPS kalian dan xxx sesuai dengan versi Windows Server kalian.
+Buka browser, download dengan mengakses VPSnya. Ubah yyy dengan ip kalian, xxx untuk versi Windows Server yang kalian pilih
 
 ```jsx
 http://yyy.yyy.yyy/windows2xxx.gz
@@ -54,7 +79,3 @@ http://yyy.yyy.yyy/windows2xxx.gz
 ## 5. Setting Agar Bisa Diakses via RDP :
 
 Create droplet baru dan ikuti petunjuk yang ada di YouTube
-
-```jsx
-wget -O- --no-check-certificate http://yyy.yyy.yyy/windowsxxxx.gz | gunzip | dd of=/dev/vda
-```
