@@ -93,5 +93,9 @@ Atau pake punya saya
 ```
 ### Optional :
 
-Untuk mendukung biaya hosting yang digunakan sebagai tempat penyimpanan file di atas, kalian bisa langsung ke tkp. Muchas Gracias! 🤖🖥️
+Untuk mendukung biaya hosting yang digunakan sebagai tempat penyimpanan file di atas, kalian bisa langsung ke tkp !!!
+
 > https://trakteer.id/rennosuryo/tip?open=true
+
+Muchas Gracias! 🤖🖥️
+
