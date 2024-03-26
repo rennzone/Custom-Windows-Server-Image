@@ -91,4 +91,7 @@ Atau pake punya saya
 128.199.78.85/windows2019.gz
 128.199.78.85/windows2016.gz
 ```
+### Optional :
 
+Untuk mendukung biaya hosting yang digunakan sebagai tempat penyimpanan file di atas, kalian bisa langsung ke tkp. Muchas Gracias! 🤖🖥️
+> https://trakteer.id/rennosuryo/tip?open=true
