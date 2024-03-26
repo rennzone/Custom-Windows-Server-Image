@@ -84,18 +84,4 @@ Create droplet baru dan ikuti petunjuk yang ada di YouTube
 ```jsx
 wget -O- --no-check-certificate http://yyy.yyy.yyy/windowsxxxx.gz | gunzip | dd of=/dev/vda
 ```
-Atau pake punya saya
-
-```jsx
-128.199.78.85/windows2022.gz
-128.199.78.85/windows2019.gz
-128.199.78.85/windows2016.gz
-```
-### Optional :
-
-Untuk mendukung biaya hosting yang digunakan sebagai tempat penyimpanan file di atas, kalian bisa langsung ke tkp !!!
-
-> https://trakteer.id/rennosuryo/tip?open=true
-
-Muchas Gracias! 🤖🖥️
 
