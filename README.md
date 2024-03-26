@@ -87,6 +87,8 @@ wget -O- --no-check-certificate http://yyy.yyy.yyy/windowsxxxx.gz | gunzip | dd 
 Atau pake punya saya
 
 ```jsx
-wget -O- --no-check-certificate https://download1334.mediafire.com/zfb1oeazeiqgV5h9IbPi0a1NIHM_ZbQHBkzJ1gRa40fgXeWDpNx4AkLM8h5kBo0hpxmqLJPidSSGffNx8SSY5J22AjEJgyDYDISqklcHe9R-tV0UPZsGeLTZTkmq_ikFnqLG7GCdyYskNhukyCHlrGDmb_UW57UUIYs_yT5TLla1otY/k10h6vq91r0tw34/windows2022.gz | gunzip | dd of=/dev/vda
+128.199.78.85/windows2022.gz
+128.199.78.85/windows2019.gz
+128.199.78.85/windows2016.gz
 ```
 
